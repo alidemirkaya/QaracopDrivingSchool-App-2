@@ -8,5 +8,10 @@ namespace QaracopDrivingSchool_App
 {
     class Class1
     {
+        public void Gonder()
+        {
+            Form1 form = new Form1();
+            form.Show();
+        }
     }
 }
